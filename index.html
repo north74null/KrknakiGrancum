@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+            <form onsubmit="return false">
+        <div class="pt1">
+            <input type="number" id="i1" placeholder="Առաջին հաշիվ">
+            <input type="number" id="i2" placeholder="Սկզբնական մնացորդ">
+        </div>
+        <div class="pt2">
+            <input type="number" id="i3" placeholder="Երկրորդ հաշիվ">
+            <input type="number" id="i4" placeholder="Սկզբնական մնացորդ">
+        </div>
+        <div class="pt3">
+            <input type="number" id="i5" placeholder="Փոխանցվող Գումար">
+            <input type="submit" id="i6" value="Ստեղծել" onclick="createTables()">
+        </div>
+    </form>
+    <div id="tables"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
